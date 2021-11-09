@@ -111,7 +111,7 @@
     function calcul(){
       let n=document.getElementById("N").value;
       let t=document.getElementById("t").value;
-      let nb=parseInt(n);
+      let nb=parseFloat(n);
       let error = document.getElementById('error');
       let error2 = document.getElementById('error2');
         if(isNaN(nb) | nb === "")
